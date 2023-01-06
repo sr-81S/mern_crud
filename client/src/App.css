@@ -1,0 +1,59 @@
+.add_btn{
+  text-align: right;
+}
+
+.container{
+  overflow: auto;
+}
+
+.icon_id{
+  font-size: 30;
+  cursor: pointer; 
+}
+
+.container_form{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+
+.form_box{
+  height: 900px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 50px 500px  50px;
+  grid-template-rows: 50px 800px 50px;
+}
+
+
+.in_form{
+  display: grid;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #FCFDFE;
+  border-radius: 5px;
+  grid-template-columns: 50px repeat(4,100px) 50px;
+  grid-template-rows:  repeat(13, 55px);
+  row-gap: 5px;
+}
+
+.in_one{
+  display: grid;
+  grid-row: 2/13;
+  grid-column: 2/6;
+}
+
+.left_view h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .left_view span{
+    font-weight: 400;
+  }
+
+  .right_view span{
+    font-weight: 400;
+  }
